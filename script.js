@@ -1,7 +1,4 @@
-// const emailValue = document.querySelector('#mail').value;
-// const passwordValue = document.querySelector('#password').value;
-
-const loginButton = document.querySelector('.login-btn');
-loginButton.addEventListener('click', function login() {
-    console.log('emailValue==> ', emailValue)
-})
+const registerButton = document.querySelector(".register-btn");
+registerButton.addEventListener("click", function login() {
+  window.location = "./SignUp Page/sign_up.html";
+});
